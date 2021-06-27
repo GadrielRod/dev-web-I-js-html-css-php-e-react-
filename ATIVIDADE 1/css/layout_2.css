@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    overflow: hidden;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: rgb(38, 111, 247);
+}
+aside{
+    float: left;
+    width: 20%;
+    background: rgb(238, 99, 19);
+    height: 600px;
+}
+main{
+    float: right;
+    width: 80%;
+    height: 600px;
+    background: rgb(212, 212, 212);
+}
+img{
+    background-color: chartreuse;
+    float: left;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.texto_1{
+    text-align: justify;
+    padding-left: 270px;
+    padding-right: 15px;
+}
+
+.texto_2{
+    text-align: justify;
+    padding: 10px;
+
+}
+.sub_titulo{
+    white-space: pre-wrap;
+}
+
+.titulo{
+    padding: 40px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.titulo h2{
+    border: solid;
+    display: inline;
+}
+.menu td{
+    border: 1px solid;
+    display: flex;
+    margin-block-start: 15px;
+
+}
+.menu table{
+    width: 100%;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:600px){
+    
+    
+    body{
+        text-align: center;
+        overflow-y: scroll; 
+    }
+    header{
+        height: 55px;
+    }
+    .titulo{
+        padding: 0;
+        padding-top: 10px;
+    }
+    aside{
+        width: 100%;
+        height: 50px;
+    }    
+    .menu td{
+        border: 1px solid;
+        margin-block-start: 0;
+        display: table-cell;
+        height: 45px;
+    }
+    .menu table{
+        width: 100%;
+        padding-top: 0;
+
+    }
+
+    main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        order: 1;
+        float: none;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .texto_1{
+        text-align: justify;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .texto_2{
+        text-align: justify;
+        padding: 10px;
+    
+    }
+
+}
