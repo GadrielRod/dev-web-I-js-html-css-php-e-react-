@@ -1,0 +1,27 @@
+.col-md-4{
+    height: 220px;
+    background: rgb(37, 37, 37);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    place-items: center; 
+}
+
+
+.col-md-4:nth-child(1){
+    background: darkred;
+}
+.col-md-4:nth-child(3){
+    background: darkred;
+}
+.col-md-4:nth-child(5){
+    background: darkred;
+}
+.col-md-4:nth-child(7){
+    background: darkred;
+}
+.col-md-4:nth-child(9){
+    background: darkred;
+}
+

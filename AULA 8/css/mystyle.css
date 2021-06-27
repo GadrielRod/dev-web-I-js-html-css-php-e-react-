@@ -1,0 +1,44 @@
+.jumbotron {
+    background: rgba(241, 41, 80, 50);
+}
+.navbar{
+    margin-top:-80px;
+    
+}
+.bg-dark{
+    background: cyan !important;
+}
+.row{
+    text-align: center;
+    font-weight: 700;
+}
+.col-md-1{
+    background: violet;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.col-md-2{
+    background: indigo;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.col-md-3{
+    background: blue;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.col-md-4{
+    background: green;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.col-md-6{
+    background: yellowgreen;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+.col-md-12{
+    background: yellow;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
